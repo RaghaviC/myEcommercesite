@@ -58,7 +58,7 @@
 
 	if(isset($_POST['login']))
 	{
-		$v1=$_POST['txt1'];
+		$v1=$_POST['t1'];
 		$v2=$_POST['txt2'];
 
 		$q="select * from admin_login where password='$v2' and name='$v1'";
