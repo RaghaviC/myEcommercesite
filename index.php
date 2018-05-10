@@ -70,6 +70,7 @@
 		if($count==0)
 		{
 			header("Location:admin.php?failed");
+			echo "Failed";
 		}
 		else
 		{
